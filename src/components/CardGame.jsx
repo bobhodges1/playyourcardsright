@@ -1,6 +1,7 @@
 import { useState } from "react";
 import cardDeckArray from "../data/carddeck";
 import _ from "lodash";
+import "./CardGame.css";
 
 /**
  * @typedef {import("../data/carddeck").Card} Card
@@ -78,16 +79,26 @@ export function CardGame() {
     setPrediction(null);
   }
 
+  console.log(currentCard.front);
   return (
     <div>
       <button disabled={winState !== "progressing"} onClick={clickedHigher}>
         Higher!
       </button>
       <hr />
-      Current card: {currentCard.id}
+      Current card:
+      <br />
+      <img src={currentCard.front} />
+      <img src={shuffledPack[0].back} />
+      <img src={shuffledPack[1].back} />
+      <img src={shuffledPack[2].back} />
+      <img src={shuffledPack[3].back} />
       <hr />
-      <hr />
-      Previous card(s): {previousCards.map((card) => card.id).join(", ")}
+      Previous card(s):
+      <br />
+      {previousCards.map((card) => (
+        <img key={card.id} src={card.front} />
+      ))}
       <hr />
       <button disabled={winState !== "progressing"} onClick={clickedLower}>
         Lower!

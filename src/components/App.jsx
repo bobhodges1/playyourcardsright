@@ -1,4 +1,6 @@
 import { CardGame } from "./CardGame";
+import "./CardGame.css";
+
 
 
 export default function App() {

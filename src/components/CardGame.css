@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+    color: black;
+
+}
+
+
+hr {
+    border-color: red;
+}
+
+
+button {
+    background-color: blue;
+    color: white;
+
+    padding: 10px;
+
+    border: none;
+
+    border-radius: 5px;
+
+
+
+}
+
+
+img {
+    width: 10%;
+
+    height: auto;
+
+}
