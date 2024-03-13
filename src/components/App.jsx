@@ -7,10 +7,13 @@ export default function App() {
     <div>
       <h1> Welcome to Play Your Cards Right! </h1>
       <CardGame />
-      <hr />
       <p>
         Learn how to play the game with these unlucky folk{" "}
-        <a href="hhttps://www.youtube.com/watch?v=a1MDqJJoGZg" target="_blank">
+        <a
+          href="hhttps://www.youtube.com/watch?v=a1MDqJJoGZg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           here
         </a>
         .
