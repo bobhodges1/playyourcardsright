@@ -10,7 +10,7 @@ export default function App() {
       <p>
         Learn how to play the game with these unlucky folk{" "}
         <a
-          href="https://youtu.be/a1MDqJJoGZg?si=h0FVO0flf6SwngRR&t=30"
+          href="https://www.youtube.com/watch?v=a1MDqJJoGZg&t=30s"
           target="_blank"
           rel="noopener noreferrer"
         >
