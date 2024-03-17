@@ -5,7 +5,7 @@ import { Footer } from "./Footer";
 export default function App() {
   return (
     <div>
-      <h1> Welcome to Play Your Cards Right! </h1>
+      <h1> Welcome to Play Your Cards Right!! </h1>
       <CardGame />
       <p>
         Learn how to play the game with these unlucky folk{" "}
